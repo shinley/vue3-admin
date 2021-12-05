@@ -9,6 +9,9 @@ import '@/styles/reset.css'
 // 导入SvgIcon
 import installIcons from '@/icons'
 
+// 导入路由监权
+import './permission'
+
 const app = createApp(App)
 installIcons(app)
 installElementPlus(app)
