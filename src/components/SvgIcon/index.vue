@@ -24,7 +24,7 @@ const props = defineProps({
   // 图标类名
   className: {
     type: String,
-    required: true
+    default: ''
   }
 })
 
