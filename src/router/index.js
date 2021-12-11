@@ -114,12 +114,12 @@ const publicRoutes = [
   },
   {
     path: '/',
-    redirect: 'profile',
+    redirect: '/profile',
     component: Layout,
     children: [
       // 个人中心
       {
-        path: 'profile',
+        path: '/profile',
         name: 'profile',
         component: () => import('@/views/profile/index'),
         meta: {
